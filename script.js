@@ -30,3 +30,27 @@ switch (num) {
     console.log('error');
     break;
 }
+
+let numSecont = 50;
+
+// while (numSecont < 55) {
+//   console.log(numSecont);
+//   numSecont++;
+// }
+
+do {
+  console.log(numSecont);
+  numSecont++;
+}
+while (numSecont < 55);
+
+
+for (let i = 1; i < 8; i++) {
+  // if (i == 6) {
+  //   break;
+  // }
+  if (i == 6) {
+    continue;
+  }
+  console.log(i);
+}
